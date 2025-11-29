@@ -1,0 +1,131 @@
+{
+  "apiRoutes": [
+    {
+      "file": "_expo/functions/api/auth/token+api.js",
+      "page": "/api/auth/token",
+      "namedRegex": "^/api/auth/token(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "_expo/functions/api/auth/logout+api.js",
+      "page": "/api/auth/logout",
+      "namedRegex": "^/api/auth/logout(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "_expo/functions/api/public/data+api.js",
+      "page": "/api/public/data",
+      "namedRegex": "^/api/public/data(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "_expo/functions/api/auth/refresh+api.js",
+      "page": "/api/auth/refresh",
+      "namedRegex": "^/api/auth/refresh(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "_expo/functions/api/auth/session+api.js",
+      "page": "/api/auth/session",
+      "namedRegex": "^/api/auth/session(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "_expo/functions/api/auth/callback+api.js",
+      "page": "/api/auth/callback",
+      "namedRegex": "^/api/auth/callback(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "_expo/functions/api/auth/authorize+api.js",
+      "page": "/api/auth/authorize",
+      "namedRegex": "^/api/auth/authorize(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "_expo/functions/api/protected/data+api.js",
+      "page": "/api/protected/data",
+      "namedRegex": "^/api/protected/data(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "_expo/functions/api/auth/apple/token+api.js",
+      "page": "/api/auth/apple/token",
+      "namedRegex": "^/api/auth/apple/token(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "_expo/functions/api/auth/apple/callback+api.js",
+      "page": "/api/auth/apple/callback",
+      "namedRegex": "^/api/auth/apple/callback(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "_expo/functions/api/auth/apple/authorize+api.js",
+      "page": "/api/auth/apple/authorize",
+      "namedRegex": "^/api/auth/apple/authorize(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "_expo/functions/api/auth/apple/apple-native+api.js",
+      "page": "/api/auth/apple/apple-native",
+      "namedRegex": "^/api/auth/apple/apple\\-native(?:/)?$",
+      "routeKeys": {}
+    }
+  ],
+  "htmlRoutes": [
+    {
+      "file": "./index.tsx",
+      "page": "/index",
+      "namedRegex": "^/(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/join.tsx",
+      "page": "/(tabs)/join",
+      "namedRegex": "^(?:/\\(tabs\\))?/join(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/home.tsx",
+      "page": "/(tabs)/home",
+      "namedRegex": "^(?:/\\(tabs\\))?/home(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/profile.tsx",
+      "page": "/(tabs)/profile",
+      "namedRegex": "^(?:/\\(tabs\\))?/profile(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "expo-router/build/views/Sitemap.js",
+      "page": "/_sitemap",
+      "namedRegex": "^/_sitemap(?:/)?$",
+      "routeKeys": {},
+      "generated": true
+    },
+    {
+      "file": "./(tabs)/my-auctions.tsx",
+      "page": "/(tabs)/my-auctions",
+      "namedRegex": "^(?:/\\(tabs\\))?/my\\-auctions(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/create-auction.tsx",
+      "page": "/(tabs)/create-auction",
+      "namedRegex": "^(?:/\\(tabs\\))?/create\\-auction(?:/)?$",
+      "routeKeys": {}
+    }
+  ],
+  "notFoundRoutes": [
+    {
+      "file": "./+not-found.tsx",
+      "page": "/+not-found",
+      "namedRegex": "^(?:/(?<notfound>.+?))?(?:/)?$",
+      "routeKeys": {
+        "notfound": "not-found"
+      }
+    }
+  ]
+}
